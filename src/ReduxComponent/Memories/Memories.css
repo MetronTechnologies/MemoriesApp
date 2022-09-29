@@ -1,0 +1,14 @@
+.memory_container{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-content: center;
+    grid-gap: 20px;
+    transition: all ease-in 1s;
+}
+
+
+
+
+
+

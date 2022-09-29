@@ -1,0 +1,63 @@
+.comment_container{
+    margin: 2rem;
+    height: max-content;
+    padding: 1rem;
+    padding-top: 0;
+    display: grid;
+}
+
+.comment_container_title{
+    font-size: 2rem;
+}
+
+.comments_container{
+    display: grid;
+}
+
+.commentarea {
+    resize: none;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    padding: 5px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-size: 1rem;
+    
+}
+
+.button_disabled {
+    font-size: 1rem;
+    background-color: lightgray;
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+}
+
+.button_enabled {
+    background-color: #34A9D4;
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+    font-size: 1rem;
+}
+
+.signIn_button{
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+    color: white;
+    font-size: 1.2rem;
+    word-spacing: 5px;
+}
+
+.comments{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+
+
+

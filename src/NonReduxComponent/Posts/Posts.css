@@ -1,0 +1,73 @@
+.image_gallery{
+    display: grid;
+    place-items: center;
+    border: 2px gray solid;
+    border-radius: 30px;
+    width: 150px;
+    background-color: whitesmoke;
+}
+
+.main_container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 30px;
+    place-items: center;
+}
+
+.image_container{
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+}
+
+.image_title{
+    font-size: 13px;
+    font-family: "Leelawadee UI", sans-serif;
+    font-style: italic;
+}
+
+.actions{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.delete_icon{
+    color: #252321;
+    margin-left: 20px;
+}
+
+.like_icon{
+    color: gray;
+    margin-left: 70px;
+}
+
+.title_container{
+    margin-top: 0;
+    display: grid;
+    place-items: center;
+}
+
+.update{
+    justify-self: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.update_link{
+    text-decoration: none;
+}
+
+.add_link{
+    text-decoration: none;
+}
+

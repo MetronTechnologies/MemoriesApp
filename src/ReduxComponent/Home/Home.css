@@ -1,0 +1,22 @@
+.app_body{
+    display: grid;
+    place-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    grid-template-columns: min-content max-content;
+    border-radius: 15px;
+    grid-gap: 50px;
+    margin-bottom: 4vh;
+}
+
+.app_form{
+    justify-self: flex-end;
+}
+
+.material {
+    max-width: 20vw;
+}
+
+
+
+
